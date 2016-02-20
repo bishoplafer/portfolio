@@ -30,51 +30,71 @@
   <div class="container">
     <h1>Bishop Lafer's Resume</h1>
     <hr>
-    <div id="#skills">
-      <h2>Skills</h2>
-      <p><b>Front End Web Technologies:</b> React, React Native, HTML5, CSS3, Javascript, AJAX, Bootstrap, jQuery, Javascript Libraries (Instafeed.js, Reveal.js, etc..), Github, Angularjs, Responsive Frameworks.</p>
-      <p><b>Back End Web Technologies:</b> MySQL, NoSQL, Firebase, PHP, Python, Flask, MongoDB.</p>
-      <p><b>Server Environments:</b> Linux, Ubuntu, Windows Server, MAMP (local development server)</p>
-      <p><b>IDE's:</b> Sublime Text, Aptana, PyCharm, Atom, XCode, Android Emulators</p>
-      <p><b>Internet Marketing:</b> Google Partners Program, Google Analytics (Certification), Google Adwords (Certification), Adwords for YouTube (case study), Google Webmaster Tools, SEO, SEM, PPC, Conversion Tracking</p>
-      <p><b>Adobe Creative Suite:</b> Photoshop, Illustrator, Premier Pro (Video Production), Acrobat</p>
-      <p><b>API's:</b> Instagram, Facebook, custom API integration, JSON, XML</p>
-    </div>
-    <div id="#related">
-      <h2>Web Related Work Experience</h2>
-      <h3><small>August, 2011 - Present</small></h3>
-      <h3>Pohsible LLC, Eugene, OR - <i>Freelance Web Development &amp; Internet Marketing</i></h3>
-      <ul>
-        <li>Team Dumpster Fire - Developed a React Native iOS app for The Red Caps during TAO's 2016 Hack for a Cause event in Eugene, OR.</li>
-        <li><a href="http://www.nwtattoo.com">www.nwtattoo.com</a> - Custom  website for Northwest Tattoo, a new tattoo shop in Downtown Eugene. Developed using Bootstrap for a responsive layout along with Instafeed.js, a javascript library, for a custom Instagram feed.</li>
-        <li><a href="http://www.midtowndirect.us">www.midtowndirect.us</a> - designed and developed a WordPress site for a local Eugene company. Manage Google Analytics and Webmaster Tools.</li>
-        <li><a href="http://www.ktmcountry.com">www.ktmcountry.com</a> - Worked with another developer to manage and maintain an E-commerce site for a motorcycle dealership in Eugene, OR. Manage Google Adwords campaigns. Produced a television commercial that is aired on Comcast Networks in the Pacific Northwest.</li>
-        <li><a href="http://www.fishermensinn.com">www.fishermensinn.com</a> - Custom responsive website for a fishing charter in Sitka, Alaska.</li>
-        <li><a href="http://www.hempshield.net">www.hempshield.net</a> - Managed Google Adwords campaigns and conversion tracking in Google Analytics and Google Adwords.</li>
-        <li><a href="https://www.youtube.com/user/TheSkateMentality">The Skate Mentality</a> - YouTube Partnered Channel created in 2011 to accompany a social media network for Skateboarders built on a Ning Platform.</li>
+    <div>
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#skills" aria-controls="skills" role="tab" data-toggle="tab">Skills</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Experience <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li role="presentation"><a href="#related" aria-controls="related" role="tab" data-toggle="tab">Related Work Experience</a></li>
+            <li role="separator" class="divider"></li>
+            <li role="presentation"><a href="#history" aria-controls="history" role="tab" data-toggle="tab">Work History</a></li>
+          </ul>
+        </li>
+        <li role="presentation"><a href="#education" aria-controls="settings" role="tab" data-toggle="tab">Education</a></li>
       </ul>
-    </div>
-    <div id="history">
-      <h2>Work History</h2>
-      <h3>Midtown Direct LLC - <i>Assistant Manager</i></h3>
-      <ul>
-        <li>Managing employee schedules</li>
-        <li>Office Admin responsibilities including accounting in Quickbooks (accounting for Owner’s four businesses from 2012 to 2015  while under IRS audit)</li>
-        <li>Implemented new inventory tracking system</li>
-        <li>Product ordering</li>
-        <li>Cash Handling Responsibilities</li>
-        <li>Customer Service</li>
-        <li>Sales</li>
-      </ul>
-    </div>
-    <div id="#education">
-      <h2>Education</h2>
-      <h3><small>April 2013  - November  2015</small></h3>
-      <h3>Full Sail University, Online - <i>Bachelors of Science, Web Development &amp; Design</i></h3>
-      <h4>Degree Focus:</h4>
-      <p><b>Interface Design &amp; Usability</b> - Developing logical, intuitive, and clear interfaces by learning how users interact with different types of sites along with learning the process of organizing and presenting data to users in a clear and meaningful way.</p>
-      <p><b>Web Standards</b> - Developing Web Applications to the World Wide Web Consortium (W3C) Standard to ensure function and usability across different operating systems and delivery platforms.</p>
-      <p><b>Interactivity</b> - Creating compelling websites using object-oriented programming principles to create complex interactivity and a good user experience.</p>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="skills">
+          <h2>Skills</h2>
+          <p><b>Front End Web Technologies:</b> HTML5, CSS3, Javascript, AJAX, Bootstrap, jQuery, React, React Native, Javascript Libraries (Instafeed.js, Reveal.js, etc..), Github, Angularjs, Responsive Frameworks.</p>
+          <p><b>Back End Web Technologies:</b> MySQL, NoSQL, Firebase, PHP, Python, Flask, MongoDB.</p>
+          <p><b>Server Environments:</b> Linux, Ubuntu, Windows Server, MAMP (local development server)</p>
+          <p><b>IDE's:</b> Sublime Text, Aptana, PyCharm, Atom, XCode, Android Emulators</p>
+          <p><b>Internet Marketing:</b> Google Partners Program, Google Analytics (Certification), Google Adwords (Certification), Adwords for YouTube (case study), Google Webmaster Tools, SEO, SEM, PPC, Conversion Tracking</p>
+          <p><b>Adobe Creative Suite:</b> Photoshop, Illustrator, Premier Pro (Video Production), Acrobat</p>
+          <p><b>API's:</b> Instagram, Facebook, custom API integration, JSON, XML</p>
+        </div> <!-- /#skill -->
+        <div role="tabpanel" class="tab-pane fade" id="related">
+          <h2>Web Related Work Experience</h2>
+          <h3><small>August, 2011 - Present</small></h3>
+          <h3>Pohsible LLC, Eugene, OR - <i>Freelance Web Development &amp; Internet Marketing</i></h3>
+          <ul>
+            <li>Team Dumpster Fire - Developed a React Native iOS app for The Red Caps during TAO's 2016 Hack for a Cause event in Eugene, OR.</li>
+            <li><a href="http://www.nwtattoo.com">www.nwtattoo.com</a> - Custom  website for Northwest Tattoo, a new tattoo shop in Downtown Eugene. Developed using Bootstrap for a responsive layout along with Instafeed.js, a javascript library, for a custom Instagram feed.</li>
+            <li><a href="http://www.midtowndirect.us">www.midtowndirect.us</a> - designed and developed a WordPress site for a local Eugene company. Manage Google Analytics and Webmaster Tools.</li>
+            <li><a href="http://www.ktmcountry.com">www.ktmcountry.com</a> - Worked with another developer to manage and maintain an E-commerce site for a motorcycle dealership in Eugene, OR. Manage Google Adwords campaigns. Produced a television commercial that is aired on Comcast Networks in the Pacific Northwest.</li>
+            <li><a href="http://www.fishermensinn.com">www.fishermensinn.com</a> - Custom responsive website for a fishing charter in Sitka, Alaska.</li>
+            <li><a href="http://www.hempshield.net">www.hempshield.net</a> - Managed Google Adwords campaigns and conversion tracking in Google Analytics and Google Adwords.</li>
+            <li><a href="https://www.youtube.com/user/TheSkateMentality">The Skate Mentality</a> - YouTube Partnered Channel created in 2011 to accompany a social media network for Skateboarders built on a Ning Platform.</li>
+          </ul>
+        </div> <!-- /#related -->
+        <div role="tabpanel" class="tab-pane fade" id="history">
+          <h2>Work History</h2>
+          <h3><small>September 2014 - Present</small></h3>
+          <h3>Midtown Direct LLC - <i>Assistant Manager</i></h3>
+          <ul>
+            <li>Managing employee schedules</li>
+            <li>Office Admin responsibilities including accounting in Quickbooks (accounting for Owner’s four businesses from 2012 to 2015  while under IRS audit)</li>
+            <li>Implemented new inventory tracking system</li>
+            <li>Product ordering</li>
+            <li>Cash Handling Responsibilities</li>
+            <li>Customer Service</li>
+            <li>Sales</li>
+          </ul>
+        </div> <!-- /#history -->
+        <div role="tabpanel" class="tab-pane fade" id="education">
+          <h2>Education</h2>
+          <h3><small>April 2013  - November  2015</small></h3>
+          <h3>Full Sail University, Online - <i>Bachelors of Science, Web Development &amp; Design</i></h3>
+          <h4>Degree Focus:</h4>
+          <p><b>Interface Design &amp; Usability</b> - Developing logical, intuitive, and clear interfaces by learning how users interact with different types of sites along with learning the process of organizing and presenting data to users in a clear and meaningful way.</p>
+          <p><b>Web Standards</b> - Developing Web Applications to the World Wide Web Consortium (W3C) Standard to ensure function and usability across different operating systems and delivery platforms.</p>
+          <p><b>Interactivity</b> - Creating compelling websites using object-oriented programming principles to create complex interactivity and a good user experience.</p>
+        </div> <!-- /#education -->
+      </div> <!-- /.tab-content -->
     </div>
     <br>
   </div>
