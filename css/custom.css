@@ -3,8 +3,8 @@ body {
 	margin-top: 20px;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 1em;
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #fff;
+	color: black;
 }
 
 footer {
@@ -20,7 +20,7 @@ div#socialmedia {
 }
 
 .resumeLink a {
-	color: #00ffff;
+	color: #66023c;
 }
 
 .homeLink a {
@@ -50,6 +50,10 @@ div#socialmedia {
 }
 
 .resume a {
+	color: #66023c;
+}
+
+h1 {
 	color: #66023c;
 }
 
