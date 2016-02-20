@@ -1,5 +1,6 @@
 /* this is a custom css stylesheet */
 body {
+	margin-top: 20px;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 1em;
 	background-color: #000000;
@@ -18,6 +19,27 @@ div#socialmedia {
 	display: inline;
 }
 
+.resumeLink a {
+	color: #00ffff;
+}
+
+.btn-blue {
+	border-color: #00ffff;
+}
+
+.resume {
+	background-color: #fff;
+	color: black;
+	font-size: 1.5em;
+}
+
+.resume h1,h2 {
+	color: #66023c;
+}
+
+.resume h2 {
+	text-decoration: underline;
+}
 
 /* Media Querries
 ---------------------------------------------------------*/
