@@ -23,8 +23,16 @@ div#socialmedia {
 	color: #00ffff;
 }
 
+.homeLink a {
+	color: #66023c;
+}
+
 .btn-blue {
 	border-color: #00ffff;
+}
+
+.btn-purple {
+	border-color: #66023c;
 }
 
 .resume {
@@ -39,6 +47,10 @@ div#socialmedia {
 
 .resume h2 {
 	text-decoration: underline;
+}
+
+.resume a {
+	color: #66023c;
 }
 
 /* Media Querries
