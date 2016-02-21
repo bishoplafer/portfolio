@@ -70,8 +70,8 @@ h1 {
 	@media screen and (min-width: 480px) and (max-width: 767px) {
 		body {
 			font-family: 'Droid Sans', sans-serif;
-			background-color: #000000;
-			color: #ffffff;
+			background-color: #fff;
+			color: #000;
 		}
 
 		#logoLT {
